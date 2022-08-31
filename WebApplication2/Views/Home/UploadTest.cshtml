@@ -1,0 +1,14 @@
+﻿
+@{
+    ViewBag.Title = "UploadTest";
+}
+
+<h2>UploadTest</h2>
+
+@using (Html.BeginForm("UploadTest", "Home",FormMethod.Post))
+{
+    <label>please select one file</label><br />
+    <input type="file" name="file"/><br />
+    <button type="submit">submit</button>
+
+}
